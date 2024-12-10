@@ -41,3 +41,30 @@ a{
     margin-right: 15%;
     gap:20px
 }
+
+.maintext{
+    margin-top: 10px;
+}
+.maindiv{
+
+margin-top: 5%;
+
+}
+.button{
+    background-color: rgb(25, 172, 251);
+    color: white;
+    padding: 10px;
+}
+
+
+.mainbigtext{
+    font-size: 34px;
+    color: rgb(78, 78, 249);
+    
+}
+.backgroundmain{
+    background-image: url(/image/subha-bihani-back\ .png);
+background-size: cover;
+padding: 15%;
+
+}
