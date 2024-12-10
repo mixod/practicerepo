@@ -11,11 +11,11 @@ body{
 
 .flex{
   background-color: rgb(7, 7, 126);
-
     display: flex;
-   
     gap: 50px;
     color: white;
+   
+padding: 1px;
 }
 .Secondheader{
 background-color: rgba(255, 255, 255, 0.422);
