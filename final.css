@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navimage {
+    display: flex;
+    gap: 10px;
+    margin-right: 10%;
+
+}
+
+.navtext {
+    display: flex;
+    gap: 25px;
+    margin-left: 10%;
+}
+
+.navflex {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(3, 3, 113);
+    color: white;
+    padding: 8px;
+}
