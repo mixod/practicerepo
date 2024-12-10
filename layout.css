@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(157, 157, 240);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    display: flex;
+    gap:20px
+}
+.header{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+    padding-left:20px ;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.aside-content-parent{
+    display: flex;
+}
+.main-sidebar{
+    flex:1;
+   background-color: blueviolet;
+}
+.main{
+    flex:4;
+    background-color: yellow;
+    padding: 20px;
+}
+.footer{
+    background-color: beige;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}

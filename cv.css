@@ -1,0 +1,35 @@
+body{
+    border: 1px solid black;
+    width: fit-content;
+    padding: 30px;
+    margin-left: 25%;
+}
+.center{
+    text-align: center;
+
+}
+.P{
+    margin-left: 15%;
+}
+.flex{
+    display: flex;
+    gap: 85px;
+}
+.Q{
+    margin-left: 13%;
+}
+.block{
+    display: block;
+}
+.gap{
+    margin-left: 125px;
+}
+.line{
+    border-top: 2px solid black;
+    width: 65%;
+}
+.lf{
+    display: flex;
+    gap: 20px;
+}
+

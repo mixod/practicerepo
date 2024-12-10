@@ -1,0 +1,21 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.flex{
+    display: flex;
+    gap: 40px;
+    margin-left: 15%;
+    
+    color: azure;
+}
+.he{
+    background-color: rgb(8, 22, 180);
+ 
+   
+}
+.flexxx{
+    display: flex;
+    background-color: white;
+   gap: 50px;
+}

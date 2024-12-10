@@ -1,0 +1,51 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.headline{
+    border-top: 15px solid green;
+    width: 65%;
+    
+}
+
+.flex{
+  background-color: rgb(7, 7, 126);
+
+    display: flex;
+   
+    gap: 50px;
+    color: white;
+}
+.Secondheader{
+background-color: rgba(255, 255, 255, 0.422);
+padding: 15px;
+
+}
+.space{
+    margin-left: 15%;
+  
+}
+.flex_s{
+    display: flex;
+       gap: 500px;
+    
+    
+
+    
+}
+.inbetween{
+    background-color: rgb(211, 245, 245);
+    margin-left: 15%;
+    margin-top: 105px;
+}
+.main{
+    display: flex;
+    gap: 80px;
+    margin-top: 90px;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}

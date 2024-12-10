@@ -1,0 +1,28 @@
+/* body{
+    padding: 0px;
+    margin: 0px;
+} */
+table, th ,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+.name{
+    border: 1px solid black;
+    width: fit-content;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.block{
+    display: block;
+}
+.flex{
+    display: flex;
+    gap: 50;
+
+}
+.fb{
+   border: 1px solid;
+   padding: 20px;
+   margin: 20px;
+}
