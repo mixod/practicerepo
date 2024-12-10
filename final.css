@@ -75,7 +75,7 @@ padding: 15%;
     background-color: #161e71;
     border-left: 10px solid white;
     border-right: 10px solid white;
-    animation: animborder 2s linear ;
+    
    
 }
 p{
@@ -87,4 +87,11 @@ p{
 .About-Us{
     display: flex;
     gap:10%;
+}
+.our-services{
+    background-image: url(/image/client-bg.png);
+    padding: 20px;
+}
+.our-servicescentertext{
+    text-align: center;
 }
