@@ -3,10 +3,13 @@ body {
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
 .navimage {
     display: flex;
     gap: 10px;
-    margin-right: 10%;
+    margin-right: 15%;
 
 }
 
@@ -22,4 +25,19 @@ body {
     background-color: rgb(3, 3, 113);
     color: white;
     padding: 8px;
+}
+.Second_navflex{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative ;
+    z-index: 999;
+}
+.Second_navtitle{
+    margin-left: 11%;
+}
+.Second_sidetitle{
+    display: flex;
+    margin-right: 15%;
+    gap:20px
 }
