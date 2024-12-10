@@ -30,8 +30,7 @@ a{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    position: relative ;
-    z-index: 999;
+    
 }
 .Second_navtitle{
     margin-left: 11%;
@@ -67,4 +66,25 @@ margin-top: 5%;
 background-size: cover;
 padding: 15%;
 
+}
+.animatedblock{
+    position: relative;
+    display: block;
+    height: 3px;
+    width: 115px;
+    background-color: #161e71;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    animation: animborder 2s linear ;
+   
+}
+p{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(102, 102, 102);
+}
+.About-Us{
+    display: flex;
+    gap:10%;
 }
