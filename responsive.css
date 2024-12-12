@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header-flex {
+  display: flex;
+  gap: 4%;
+  padding: 1%;
+}
+a {
+  text-decoration: none;
+}
+.imgetop {
+  height: 120px;
+  width: 400px;
+}
+.Contact {
+  display: flex;
+  flex-direction: column;
+
+}
+@media only screen and (max-width: 430px) {
+  .header-flex {
+    display: flex;
+    padding: 1%;
+    padding-bottom: 2%;
+    gap: 90%;
+  }
+  .imgetop {
+    height: 20%;
+    width: 30%;
+  }
+}

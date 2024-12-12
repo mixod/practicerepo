@@ -1,0 +1,40 @@
+.hedflex{
+    display: flex;
+gap: 4%;
+padding: 2%;
+}
+.first_imgsize{
+    height: 80%;
+    width: 80%;
+}
+.link-contact{
+    display: flex;
+    flex-direction: column;
+    font-size: xx-small;
+}
+.second_imgsize{height: 15%;
+    width: 15%;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(221, 247, 166, 0.642);
+    color: rgb(23, 23, 23);
+    margin-top: 1rem;
+    width: 160%;
+    padding: 2%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.second_imgsize{
+    display: flex;
+    margin-left: 20%;
+}
+.mainimage{
+    padding: 3%;
+    height: 35rem;
+    width: 42rem;
+}
