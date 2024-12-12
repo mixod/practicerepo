@@ -1,0 +1,108 @@
+body{
+    
+    background-color: #e6fffb;
+    padding: 0%;
+    margin: 0%;
+}
+.headerflex{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 2% 1% 2%;
+}
+.header-first-image{
+    height: 4rem;
+    width: 10rem;
+
+}
+.header-second-image{
+    height: 4rem;
+    width: 6rem;
+}
+.line{
+    margin-top: 1%;
+    display: block;
+    height: 0.5rem;
+    width: 27rem;
+    background-color: #00474f;
+}
+.navflex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #13c2c2;
+    color: black;
+    padding: 0.5%;
+}
+a{
+    text-decoration: none;
+    font-size: small;
+}
+.generalinfo-nav{
+    display: flex;
+    gap: 10px;
+margin-right: 1%;
+}
+.natureimage{
+    width: 97%;
+    height: 1%;
+    padding-left: 1.5%;
+    padding-top: 2%;
+}
+.mainflex{
+    display: flex;
+    flex-direction: column;
+   background-color: #5cdbd3;
+   margin: 1%;
+   padding: 2%;
+   margin-bottom: 4%;
+}
+.Intromain{
+    display: flex;
+    justify-content: center;
+}
+.photoppsize{ 
+    width: 37%;
+    height: 1%;
+    border: 1px solid black;
+    padding: 1%;
+    margin-left: 30%;
+   
+}
+.name{
+    display: flex;
+    margin-left:43%;
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+   
+    padding: 3%;
+}
+@media only screen and (min-width: 432px) {
+    .header-first-image{
+        width: 15rem;
+    }
+    .header-second-image{
+        height: 6rem;
+        width: 7rem;
+    }
+    .line{
+        width: 295rem;
+      }
+      .natureimage{
+        width: 50%;
+        padding-top: 1%;
+      }
+    .fleximgintro{
+        display: flex;
+    }
+    .photoppsize{ 
+        width: 37%;
+        height: 1%;
+        border: 1px solid black;
+        padding: 1%;
+     
+       
+    }
+
+    
+  }
