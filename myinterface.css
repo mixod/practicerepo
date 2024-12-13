@@ -149,13 +149,14 @@ a {
 
 .form-wrapper {
   background-color: #33c9d45c;
-  s
+  
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 .form:hover{
+  font-size: 2rem;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.479);
     transition: box-shadow 300ms ease-in-out;
 }
