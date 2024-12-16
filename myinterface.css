@@ -126,11 +126,9 @@ a {
   flex-direction: column;
   margin-top: 10%;
   margin-bottom: 10%;
-padding-left: 12%;
-  
+  padding-left: 13.5%;
+  width: 86%;
 
- width: 86%;
- background-color: #c2f8fe;
 }
 .textimg{
   display: flex;
@@ -138,14 +136,51 @@ padding-left: 12%;
   margin-bottom: 4%;
   
 }
+.img1:hover{
+   
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.479);
+  transition: box-shadow 300ms ease-in-out;
+  
+ }
+ .img2:hover{
+   
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.479);
+  transition: box-shadow 300ms ease-in-out;
+  
+ }
+ .img3:hover{
+   
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.479);
+  transition: box-shadow 300ms ease-in-out;
+  
+ }
+ .img4:hover{
+   
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.479);
+  transition: box-shadow 300ms ease-in-out;
+  
+ }
+ .img5:hover{
+   
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.479);
+  transition: box-shadow 300ms ease-in-out;
+  
+ }
+ .img6  :hover{
+   
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.479);
+  transition: box-shadow 300ms ease-in-out;
+  
+ }
 
 
 /* for laptop view */
 @media only screen and (min-width: 432px) {
   .img-flex{
-    margin-top: 10px;
+    margin-bottom: 57px;
     display: flex;
-    gap: 10px;
+    gap: 177px;
+    margin-left: 112px;
   }
   .header-first-image {
     width: 15rem;
@@ -188,8 +223,9 @@ padding-left: 12%;
     margin-top: 1%;
   }
   .img1{
-    width: 28%;
-   }
+ width: 28%;
+  }
+  
    .img2{
     width: 23.5%;
    }
@@ -212,9 +248,17 @@ padding-left: 12%;
     margin-bottom: 10%;
 padding-left: 0%;
      width: 86%;
-   background-color: #c2f8fe;
+ 
    gap: 50%;
   }
+  .textimg{
+    display: flex;
+    font-size: x-large;
+    margin-bottom: 4%;
+    margin-left: 50%;
+    
+  }
+  
 }
 
 .form-wrapper {
