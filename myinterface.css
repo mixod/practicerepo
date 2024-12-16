@@ -103,8 +103,50 @@ a {
   color: white;
   margin-top: 2%;
 }
+.img1{
+  width: 86%;
+ }
+ .img2{
+  width: 86%;
+ }
+ .img3{
+   width: 86%;
+ }
+ .img4{
+   width: 86%;
+ }
+ .img5{
+   width: 86%;
+ }
+ .img6{
+   width: 86%;
+ }
+ .Networkingimg{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 10%;
+padding-left: 12%;
+  
+
+ width: 86%;
+ background-color: #c2f8fe;
+}
+.textimg{
+  display: flex;
+  font-size: x-large;
+  margin-bottom: 4%;
+  
+}
+
+
 /* for laptop view */
 @media only screen and (min-width: 432px) {
+  .img-flex{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
   .header-first-image {
     width: 15rem;
   }
@@ -145,6 +187,34 @@ a {
 
     margin-top: 1%;
   }
+  .img1{
+    width: 28%;
+   }
+   .img2{
+    width: 23.5%;
+   }
+   .img3{
+     width: 24%;
+   }
+   .img4{
+     width: 28%;
+   }
+   .img5{
+     width: 21.5%;
+   }
+   .img6{
+     width: 22.5%;
+   }
+   .Networkingimg{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-bottom: 10%;
+padding-left: 0%;
+     width: 86%;
+   background-color: #c2f8fe;
+   gap: 50%;
+  }
 }
 
 .form-wrapper {
@@ -160,37 +230,6 @@ a {
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.479);
     transition: box-shadow 300ms ease-in-out;
 }
-.img1{
- width: 86%;
-}
-.img2{
- width: 86%;
-}
-.img3{
-  width: 86%;
-}
-.img4{
-  width: 86%;
-}
-.img5{
-  width: 86%;
-}
-.img6{
-  width: 86%;
-}
-.Networkingimg{
-  margin-top: 10%;
-  margin-bottom: 10%;
-padding-left: 12%;
-  display: flex;
-  flex-direction: column;
- gap: 20px;
- width: 86%;
- background-color: #c2f8fe;
-}
-.textimg{
-  display: flex;
-  font-size: x-large;
-}
+
 
 
