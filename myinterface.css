@@ -166,13 +166,19 @@ a {
   transition: box-shadow 300ms ease-in-out;
   
  }
- .img6  :hover{
+ .img6:hover{
    
   box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.479);
   transition: box-shadow 300ms ease-in-out;
   
  }
-
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  margin-top: 1%;
+  background-color: #13c2c2;
+}
 
 /* for laptop view */
 @media only screen and (min-width: 432px) {
@@ -191,6 +197,7 @@ a {
   }
   .line {
     width: 94.9rem;
+    margin-bottom: 7px;
   }
   .natureimage {
     width: 50%;
