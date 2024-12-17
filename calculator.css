@@ -1,17 +1,19 @@
-body{
-    margin: 0%;
-    padding: 0%;
-    
+body {
+  margin: 0%;
+  padding: 0%;
 }
-.border{
-    display: flex   ;
-    flex-direction: column  ;
-    border: 1px solid black;
-    width: fit-content;
-    padding: 1%;
-   margin-left: 40%;
-   margin-top: 10%;
-   background-color: rgba(0, 255, 255, 0.218);
-   gap: 10px;
-   box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.479);
+.border {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 1%;
+  margin-left: 40%;
+  margin-top: 10%;
+  background-color: rgba(0, 255, 247, 0.186);
+  gap: 10px;
+  border-radius: 5px;
+}
+.border:hover {
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.479);
 }
