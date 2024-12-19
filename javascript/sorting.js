@@ -15,6 +15,6 @@ const info = [{ name: "Ram", age: 20, gpa: 2.9 },
 { name: "Saman", age: 27, gpa: 1.9 },
 { name: "Gita", age: 23, gpa: 4.0 }
 ]
-info.sort((a,b) => a.gpa - b.gpa);
+info.sort((a,b) => a.name.localeCompare(b.name));
 
 console.log(info);
